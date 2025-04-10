@@ -3,3 +3,5 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    with:
+      configs: '["seeeduino_xiao_ble:totem_left", "seeeduino_xiao_ble:totem_right", "seeeduino_xiao_ble:totem_dongle"]'
