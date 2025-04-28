@@ -20,10 +20,6 @@
 #define Game        4
 #define Gameplus    5
 
-&split {
-    compatible = "zmk,split-bluetooth-peripheral";
-};
-
 
 &mt {
     quick-tap-ms = <100>;
