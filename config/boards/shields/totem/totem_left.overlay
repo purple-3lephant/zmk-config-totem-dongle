@@ -15,7 +15,3 @@
          , <&xiao_d 8 GPIO_ACTIVE_HIGH>
          ;
  };
-
-&split {
-    compatible = "zmk,split-bluetooth-peripheral";
-};
